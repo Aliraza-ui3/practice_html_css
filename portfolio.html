@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+    <div class="profile-image">
+        <img src="./helo.jpg" alt="John Doe" class="profile-image">
+    </div>
+        <section id="about" class="about">
+            <h1>About Me</h1>
+            <p>Hello! I'm a passionate web developer with a love for creating beautiful and functional websites. I have experience in various web technologies and enjoy working on both front-end and back-end projects.</p>
+        </section>
+        <section id="skills" class="skills">
+            <h1>Skills</h1>
+            <div class="skills-grid">
+                <div class="card">Html</div>
+                <div class="card">CSS</div>
+                <div class="card">JAVASCRIPT</div>
+                <div class="card">REACT</div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <h1>Projects</h1>
+            <div class="project-grid">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Project 1</p>
+                            <p> E-commerce Store</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="title">STORE</p>
+                            <p>An online store with product listings, a shopping cart, and a checkout system. Developed using React and Node.js.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Project 2</p>
+                            <p>PORTFOLIO</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="title">PORFOLIO</p>
+                            <p>A personal portfolio website to showcase my skills, projects, and resume. Built with HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Project 3</p>
+                            <p>Blogging Platform</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="title">BLOG</p>
+                            <p>A blogging platform where users can create, edit, and delete posts. Built with Python and Django.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">Project 4</p>
+                            <p>Weather App</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="title">App</p>
+                            <p>A weather application that provides current weather information and forecasts. Developed using JavaScript and API integration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h1>Contact</h1>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
