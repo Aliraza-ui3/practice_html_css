@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    padding: 20px 0;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-column {
+    border-right: 1px solid #ddd;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.job, .school {
+    margin-bottom: 20px;
+}
+
+.job h3, .school h3 {
+    margin: 0 0 5px;
+    font-size: 20px;
+}
+
+.job h4, .school h4 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+.job p, .school p {
+    margin: 0 0 10px;
+    line-height: 1.6;
+}
